@@ -1,14 +1,13 @@
 #==========================================
-#    Makefile: makefile for sl
-#	Copyright 1993,1998 Toyoda Masashi 
-#		(toyoda@is.titech.ac.jp)
-#	Last Modified: 1998/ 7/22
+#    Makefile: makefile for sl 5.1
+#	Copyright 1993, 1998, 2014
+#                 Toyoda Masashi
+#		  (mtoyoda@acm.org)
+#	Last Modified: 2014/03/31
 #==========================================
 
-CC=cc
+CC=gcc
 CFLAGS=-O
 
 sl: sl.c sl.h
-	$(CC) $(CFLAGS) -o sl sl.c -lcurses -ltermcap
-#	$(CC) $(CFLAGS) -o sl sl.c -lcurses
-
+	$(CC) $(CFLAGS) -o sl sl.c -lncurses
