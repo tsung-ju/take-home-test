@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Hiroyuki Yamamoto <yama1066@gmail.com>
 Build-Depends: cdbs, debhelper (>= 9), libncurses5-dev
 Standards-Version: 3.9.3
-Homepage: http://www.tkl.iis.u-tokyo.ac.jp/~toyoda/index_e.html
+Homepage: https://github.com/mtoyoda/sl
 
 Package: sl
 Architecture: any
