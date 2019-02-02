@@ -1,7 +1,8 @@
 Source: sl
 Section: games
 Priority: optional
-Maintainer: Hiroyuki Yamamoto <yama1066@gmail.com>
+Maintainer: Markus Frosch <lazyfrosch@debian.org>
+Uploaders: Hiroyuki Yamamoto <yama1066@gmail.com>
 Build-Depends: debhelper (>= 9), libncurses5-dev
 Standards-Version: 3.9.3
 Homepage: https://github.com/mtoyoda/sl
