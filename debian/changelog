@@ -1,29 +1,32 @@
-sl (5.02-1) UNRELEASED; urgency=medium
+sl (5.02-1) unstable; urgency=medium
 
   * [db4aaf1] Add watch file for mtoyoda/sl on GitHub
   * [ab3971e] Update homepage to GitHub
-  * [2f27bd2] New upstream version 5.02
+  * [2f27bd2] New upstream version 5.02 (Closes: #744161)
   * [649343f] Update patch modify_Makefile
   * [644471a] Update patch add_-e_option and merge with remove_SIGINT
   * [25fe11b] Remove sl-h from packaging
     This was a additional binary added via weird patches.
     It might come back at some point, but as extra C source file.
   * [515ad8f] Remove cdbs and use debhelper only
-  * [57fc193] Take maintainership
+  * [57fc193] Take maintainership (Closes: #897563)
   * [f0fa9d3] Add Vcs info to control
+  * [b0ffd0e] Disable dbgsym package, its just a game
+  * [54542b5] rules: Add proper buildflags
+  * [775a4f8] control: State to conform with standards 4.3.0
 
- -- Markus Frosch <lazyfrosch@debian.org>  Sat, 02 Feb 2019 12:39:12 +0100
+ -- Markus Frosch <lazyfrosch@debian.org>  Sat, 02 Feb 2019 12:57:15 +0100
 
 sl (3.03-17) unstable; urgency=low
 
   * Upgrade to policy 3.9.3 and debhelper to 9.
-  * Remove deprecated dpatch and upgrade to packaging format "3.0 quilt" 
+  * Remove deprecated dpatch and upgrade to packaging format "3.0 quilt"
     (closes: Bug#664331). Thanks Aalto.
   * Hide cursor (closes: Bug#655148). Thanks Fuchs.
   * Revert to supporting Ctrl-Z (closes: Bug#598992).
 
  -- Hiroyuki Yamamoto <yama1066@gmail.com>  Wed, 28 Mar 2012 01:10:16 +0900
- 
+
 sl (3.03-16) unstable; urgency=low
 
   * Upgrade to policy 3.8.0.
