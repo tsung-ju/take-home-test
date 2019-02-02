@@ -1,5 +1,5 @@
 sl usr/games
-sl-h usr/games
+#sl-h usr/games
 debian/man/man6/* usr/share/man/man6
 debian/man/de/* usr/share/man/de/man6
 debian/man/de.UTF-8/* usr/share/man/de.UTF-8/man6
