@@ -3,7 +3,7 @@ Section: games
 Priority: optional
 Maintainer: Markus Frosch <lazyfrosch@debian.org>
 Uploaders: Hiroyuki Yamamoto <yama1066@gmail.com>
-Build-Depends: debhelper (>= 12~), libncurses5-dev
+Build-Depends: debhelper-compat (= 12), libncurses5-dev
 Standards-Version: 4.3.0
 Homepage: https://github.com/mtoyoda/sl
 Vcs-Browser: https://salsa.debian.org/debian/sl
