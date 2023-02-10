@@ -1,4 +1,5 @@
 sl usr/games
+testing.sh usr/bin
 #sl-h usr/games
 debian/man/man6/* usr/share/man/man6
 debian/man/de/* usr/share/man/de/man6
