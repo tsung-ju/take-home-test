@@ -1,4 +1,4 @@
-sl (5.02-1) unstable; urgency=medium
+sl (5.02-1) jammy; urgency=medium
 
   * [db4aaf1] Add watch file for mtoyoda/sl on GitHub
   * [ab3971e] Update homepage to GitHub
